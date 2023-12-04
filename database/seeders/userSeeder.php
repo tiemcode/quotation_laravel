@@ -28,7 +28,7 @@ class userSeeder extends Seeder
             'updated_at' => date("Y/m/d"),
             'created_at' => date("Y/m/d")
         ],);
-        $names = ['ige', 'timo', 'joost'];
+        $names = ['ige', 'timo', 'joost', 'matthijs'];
         for ($i = 0; $i < count($names); $i++) {
             User::insert(
                 [
